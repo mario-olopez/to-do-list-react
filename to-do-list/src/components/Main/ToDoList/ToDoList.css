@@ -1,0 +1,61 @@
+body {
+    background-color: #f3f4f6;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    width: 100%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    background-color: rgb(209, 209, 209);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
+input{
+    font-size: 20px;
+    border-radius: 10px;
+    height: 30px;
+    width: auto;
+    background-color: black;
+}
+
+button{
+    color: white;
+    background-color: black;
+    margin: 5px;
+}
+
+select{
+    height: 30px;
+    width: 215px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+.btn-reset-clear{
+    display:flex;
+    flex-direction: column;
+}
+
+.check-box{
+    display: flex;
+    gap: 0.5rem;
+}
